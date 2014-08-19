@@ -1,0 +1,32 @@
+# gitignore file
+
+# ------------------------------------------ IGNORE
+# ignore compiled stuff
+*.exe
+*.cache
+*.pdb
+*.dll.config
+*.dll
+
+# folders
+obj
+bin
+Exports
+TestResults
+logs
+
+# vs stuff
+*.suo
+*.csproj.user
+
+# ReSharper stuff
+Source/_ReSharper*/
+*.sln.DotSettings.user
+
+# StyleCop stuff
+Source/StyleCop.Cache
+
+# ------------------------------------------ INCLUDE
+
+# Include NuGet
+!Source/packages/*
